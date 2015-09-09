@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 06/09/2015 14:21:19
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 09/09/2015 17:49:02
 
 BeginCmp
 TimeStamp = /55E5DF61/55E5F084;
@@ -57,10 +57,17 @@ IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
+TimeStamp = /55E5DF63/55EDB470;
+Reference = P301;
+ValeurCmp = CONN_1;
+IdModule  = Heat_Sink_FA-T220-38E;
+EndCmp
+
+BeginCmp
 TimeStamp = /55E5DF63/55E5E185;
 Reference = Q301;
 ValeurCmp = BUK7575;
-IdModule  = TO220;
+IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp

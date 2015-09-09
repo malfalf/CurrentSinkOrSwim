@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title ""
-Date "6 sep 2015"
+Date "7 sep 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -210,4 +210,15 @@ FET_Gate
 Text HLabel 8300 5800 2    60   Input ~ 0
 Curent_Sink-
 Connection ~ 8050 5800
+$Comp
+L CONN_1 P301
+U 1 1 55EDB470
+P 8900 3900
+F 0 "P301" H 8980 3900 40  0000 L CNN
+F 1 "CONN_1" H 8900 3955 30  0001 C CNN
+F 2 "" H 8900 3900 60  0000 C CNN
+F 3 "" H 8900 3900 60  0000 C CNN
+	1    8900 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
