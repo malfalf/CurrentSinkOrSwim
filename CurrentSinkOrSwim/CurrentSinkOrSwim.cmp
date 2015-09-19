@@ -1,11 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 19/09/2015 13:29:12
-
-BeginCmp
-TimeStamp = /55E5DF61/55E5F084;
-Reference = 1N4148WT-7;
-ValeurCmp = DIODE;
-IdModule  = ;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 19/09/2015 15:28:29
 
 BeginCmp
 TimeStamp = /55E5DF61/55E5F05B;
@@ -33,6 +26,13 @@ TimeStamp = /55E5DF65/55E5E562;
 Reference = C402;
 ValeurCmp = C;
 IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E5DF61/55E5F084;
+Reference = D201;
+ValeurCmp = DIODE;
+IdModule  = DIODE_1N4148WT;
 EndCmp
 
 BeginCmp
@@ -67,13 +67,13 @@ BeginCmp
 TimeStamp = /55E5DF63/55E5E185;
 Reference = Q301;
 ValeurCmp = BUK7575;
-IdModule  = TO220_VERT;
+IdModule  = BUK7575;
 EndCmp
 
 BeginCmp
 TimeStamp = /55E5DF61/55E5F049;
 Reference = R201;
-ValeurCmp = R;
+ValeurCmp = 27,8K;
 IdModule  = SM0805;
 EndCmp
 
@@ -94,7 +94,7 @@ EndCmp
 BeginCmp
 TimeStamp = /55E5DF63/55E5E18B;
 Reference = R301;
-ValeurCmp = R;
+ValeurCmp = 68K;
 IdModule  = SM0805;
 EndCmp
 

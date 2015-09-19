@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:/Users/Laura y Miguel/Desktop/MIGUEL/Cursos/ContextualElectronicsRepository/CurrentSinkOrSwim/CurrentSinkOrSwim/CurrentSinkOrSwim.sch")
-    (date "19/09/2015 14:05:37")
+    (date "19/09/2015 15:28:09")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref P102)
@@ -42,7 +42,7 @@
       (libsource (lib device) (part C))
       (sheetpath (names "/Voltage Control/") (tstamps /55E5DF61/))
       (tstamp 55E5F05B))
-    (comp (ref 1N4148WT-7)
+    (comp (ref D201)
       (value DIODE)
       (datasheet http://www.farnell.com/datasheets/1915502.pdf)
       (fields
@@ -262,7 +262,7 @@
       (uri CurrentSinkOrSwim.lib)))
   (nets
     (net (code 1) (name "/Current Control/FET_Gate")
-      (node (ref 1N4148WT-7) (pin 1))
+      (node (ref D201) (pin 1))
       (node (ref Q301) (pin G))
       (node (ref R302) (pin 2)))
     (net (code 2) (name "/Power Regulation/Vin")
@@ -297,7 +297,7 @@
       (node (ref P102) (pin 2)))
     (net (code 6) (name "")
       (node (ref U201) (pin 1))
-      (node (ref 1N4148WT-7) (pin 2)))
+      (node (ref D201) (pin 2)))
     (net (code 7) (name 2.7V)
       (node (ref C201) (pin 1))
       (node (ref C402) (pin 1))
