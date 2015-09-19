@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title ""
-Date "7 sep 2015"
+Date "19 sep 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -61,12 +61,12 @@ $EndComp
 $Comp
 L R R201
 U 1 1 55E5F049
-P 3600 5200
-F 0 "R201" V 3680 5200 40  0000 C CNN
-F 1 "R" V 3607 5201 40  0000 C CNN
-F 2 "~" V 3530 5200 30  0000 C CNN
-F 3 "~" H 3600 5200 30  0000 C CNN
-	1    3600 5200
+P 3900 3650
+F 0 "R201" V 3980 3650 40  0000 C CNN
+F 1 "27,8K" V 3907 3651 40  0000 C CNN
+F 2 "~" V 3830 3650 30  0000 C CNN
+F 3 "~" H 3900 3650 30  0000 C CNN
+	1    3900 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -116,24 +116,15 @@ $EndComp
 Wire Wire Line
 	5850 4100 5850 4250
 Wire Wire Line
-	3600 4600 3600 4950
-Wire Wire Line
 	5450 3800 5200 3800
 Wire Wire Line
 	5200 3800 5200 4450
 Wire Wire Line
 	5450 3600 4800 3600
 Wire Wire Line
-	4800 3600 4800 4750
-Wire Wire Line
-	4800 4750 3600 4750
-Connection ~ 3600 4750
-Wire Wire Line
-	3600 5450 3600 5550
+	3600 4600 3600 5550
 Wire Wire Line
 	3600 5550 9200 5550
-Wire Wire Line
-	3900 4350 3750 4350
 Wire Wire Line
 	5850 2950 5850 3300
 Wire Wire Line
@@ -149,9 +140,6 @@ Text GLabel 3250 1900 0    60   Input ~ 0
 2.7V
 Wire Wire Line
 	3250 1900 3900 1900
-Wire Wire Line
-	3900 1900 3900 4350
-Connection ~ 3900 2950
 Wire Wire Line
 	6450 3700 6800 3700
 $Comp
@@ -204,4 +192,26 @@ Current_Sink-
 Connection ~ 8600 5550
 Text HLabel 9200 3700 2    60   Output ~ 0
 Vcontrol
+Text Notes 750  1000 0    60   ~ 0
+Con este potenciómetro controlar el máximo voltaje de la batería.\nEl valor que pongas en el + lo multiplicas por 10 y ese es el valor máximo
+Text Notes 750  1200 0    60   ~ 0
+Como queremos que como máximo tengamos 20V (porque con 1A de mínimo\nen la fuente de corriente, con 20V de batería en el MOSFET se disipan 20W), el\ndivisor de tensión tendrá que dar en el + 2V.
+Text Notes 750  1500 0    60   ~ 0
+Si la batería supera los 20V, el MOSFET tendrá que dejar de funcionar y la batería se conecta directamente a tierra
+Wire Wire Line
+	3900 1900 3900 3400
+Wire Wire Line
+	3750 4350 4800 4350
+Wire Wire Line
+	3900 3900 3900 4350
+Connection ~ 3900 2950
+Wire Wire Line
+	4800 4350 4800 3600
+Connection ~ 3900 4350
+Text Notes 4250 4350 0    60   ~ 0
+0-2V
+Text Notes 6700 4450 0    60   ~ 0
+0-2V
+Text Notes 8800 3850 0    60   ~ 0
+0-20V
 $EndSCHEMATC

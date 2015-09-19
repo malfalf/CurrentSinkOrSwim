@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title ""
-Date "7 sep 2015"
+Date "19 sep 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -83,12 +83,12 @@ $EndComp
 $Comp
 L R R301
 U 1 1 55E5E18B
-P 3400 5450
-F 0 "R301" V 3480 5450 40  0000 C CNN
-F 1 "R" V 3407 5451 40  0000 C CNN
-F 2 "~" V 3330 5450 30  0000 C CNN
-F 3 "~" H 3400 5450 30  0000 C CNN
-	1    3400 5450
+P 3700 4850
+F 0 "R301" V 3780 4850 40  0000 C CNN
+F 1 "68K" V 3707 4851 40  0000 C CNN
+F 2 "~" V 3630 4850 30  0000 C CNN
+F 3 "~" H 3700 4850 30  0000 C CNN
+	1    3700 4850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -105,12 +105,12 @@ $EndComp
 $Comp
 L POT RV301
 U 1 1 55E5E197
-P 3400 4600
-F 0 "RV301" H 3400 4500 50  0000 C CNN
-F 1 "POT" H 3400 4600 50  0000 C CNN
-F 2 "~" H 3400 4600 60  0000 C CNN
-F 3 "~" H 3400 4600 60  0000 C CNN
-	1    3400 4600
+P 3700 5550
+F 0 "RV301" H 3700 5450 50  0000 C CNN
+F 1 "POT" H 3700 5550 50  0000 C CNN
+F 2 "~" H 3700 5550 60  0000 C CNN
+F 3 "~" H 3700 5550 60  0000 C CNN
+	1    3700 5550
 	0    1    1    0   
 $EndComp
 $Comp
@@ -140,24 +140,13 @@ Wire Wire Line
 Wire Wire Line
 	5650 4350 5650 4500
 Wire Wire Line
-	3400 4850 3400 5200
-Wire Wire Line
 	5250 4050 5000 4050
 Wire Wire Line
 	5000 4050 5000 4700
 Wire Wire Line
 	5250 3850 4600 3850
 Wire Wire Line
-	4600 3850 4600 5000
-Wire Wire Line
-	4600 5000 3400 5000
-Connection ~ 3400 5000
-Wire Wire Line
-	3400 5700 3400 5800
-Wire Wire Line
-	3400 5800 8300 5800
-Wire Wire Line
-	3700 4600 3550 4600
+	4600 3850 4600 5100
 Wire Wire Line
 	5650 3200 5650 3550
 Wire Wire Line
@@ -170,8 +159,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 4700 8050 4700
 Connection ~ 8050 4700
-Wire Wire Line
-	8050 5800 8050 5450
 Text GLabel 3050 2150 0    60   Input ~ 0
 2.7V
 Wire Wire Line
@@ -207,9 +194,8 @@ Wire Wire Line
 Connection ~ 7200 3950
 Text HLabel 8200 2600 2    60   Input ~ 0
 FET_Gate
-Text HLabel 8300 5800 2    60   Input ~ 0
+Text HLabel 8250 5550 2    60   Input ~ 0
 Curent_Sink-
-Connection ~ 8050 5800
 $Comp
 L CONN_1 P301
 U 1 1 55EDB470
@@ -221,4 +207,13 @@ F 3 "" H 8900 3900 60  0000 C CNN
 	1    8900 3900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4600 5100 3700 5100
+Wire Wire Line
+	3700 5100 3700 5300
+Wire Wire Line
+	3850 5550 8250 5550
+Wire Wire Line
+	8050 5550 8050 5450
+Connection ~ 8050 5550
 $EndSCHEMATC
