@@ -1,9 +1,63 @@
-PCBNEW-LibModule-V1  09/09/2015 17:45:24
+PCBNEW-LibModule-V1  19/09/2015 13:28:39
 # encoding utf-8
 Units mm
 $INDEX
+ALPS_29_0001_Potenciometer_10k
 Heat_Sink_FA-T220-38E
+Terminal_Block_200mil_5mm
 $EndINDEX
+$MODULE ALPS_29_0001_Potenciometer_10k
+Po 0 0 0 15 55FD46DF 00000000 ~~
+Li ALPS_29_0001_Potenciometer_10k
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.175 -8.375 1 1 0 0.15 N V 21 N "ALPS_29_0001_Potenciometer_10k"
+T1 0.025 -6.6 1 1 0 0.15 N V 21 N "VAL**"
+DS 1.3 7.85 2.05 7.85 0.15 21
+DS 2.05 7.825 2.05 3.525 0.15 21
+DS -1.875 3.5 -1.875 7.85 0.15 21
+DS -1.875 7.85 1.325 7.85 0.15 21
+DS -4.9 3.5 4.9 3.5 0.15 21
+DS -4.9 -5.9 4.9 -5.9 0.15 21
+DS 4.9 -5.9 4.9 3.5 0.15 21
+DS -4.9 -5.9 -4.9 3.5 0.15 21
+$PAD
+Sh "1" C 2 2 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 2 2 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.5 0
+$EndPAD
+$PAD
+Sh "3" C 2 2 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.5 0
+$EndPAD
+$PAD
+Sh "" O 2 2.2 0 0 0
+Dr 2 0 0 O 2 2.2
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.1 -3.3
+$EndPAD
+$PAD
+Sh "" O 2 2.2 0 0 0
+Dr 2 0 0 O 2 2.2
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -5.1 -3.3
+$EndPAD
+$EndMODULE ALPS_29_0001_Potenciometer_10k
 $MODULE Heat_Sink_FA-T220-38E
 Po 0 0 0 15 55F05300 00000000 ~~
 Li Heat_Sink_FA-T220-38E
@@ -43,4 +97,39 @@ Ne 0 ""
 Po 12.7 0
 $EndPAD
 $EndMODULE Heat_Sink_FA-T220-38E
+$MODULE Terminal_Block_200mil_5mm
+Po 0 0 0 15 55F6F2F7 00000000 ~~
+Li Terminal_Block_200mil_5mm
+Cd Connecteurs 2 pins
+Kw CONN DEV
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.025 -5.15 0.762 0.762 0 0.1524 N V 21 N "Terminal_Block_200mil_5mm"
+T1 0.025 5.325 0.762 0.762 0 0.1524 N I 21 N "Val**"
+DS -5.588 4.191 -5.588 -4.191 0.1524 21
+DS -5.588 -4.191 5.588 -4.191 0.1524 21
+DS 5.588 -4.191 5.588 4.191 0.1524 21
+DS 5.588 4.191 -5.588 4.191 0.1524 21
+$PAD
+Sh "1" R 2.54 2.54 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "2" C 2.54 2.54 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_2x1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE Terminal_Block_200mil_5mm
 $EndLIBRARY

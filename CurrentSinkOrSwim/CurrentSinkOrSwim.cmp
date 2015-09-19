@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 09/09/2015 17:49:02
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 19/09/2015 13:29:12
 
 BeginCmp
 TimeStamp = /55E5DF61/55E5F084;
@@ -46,14 +46,14 @@ BeginCmp
 TimeStamp = /55E48A06;
 Reference = P101;
 ValeurCmp = CONN_2;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = Terminal_Block_200mil_5mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /55D77AF4;
 Reference = P102;
 ValeurCmp = CONN_2;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = Terminal_Block_200mil_5mm;
 EndCmp
 
 BeginCmp
@@ -137,14 +137,14 @@ BeginCmp
 TimeStamp = /55E5DF61/55E5F055;
 Reference = RV201;
 ValeurCmp = POT;
-IdModule  = RV2;
+IdModule  = ALPS_29_0001_Potenciometer_10k;
 EndCmp
 
 BeginCmp
 TimeStamp = /55E5DF63/55E5E197;
 Reference = RV301;
 ValeurCmp = POT;
-IdModule  = RV2;
+IdModule  = ALPS_29_0001_Potenciometer_10k;
 EndCmp
 
 BeginCmp

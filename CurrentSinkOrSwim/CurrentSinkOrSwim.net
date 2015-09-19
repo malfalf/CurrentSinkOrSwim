@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:/Users/Laura y Miguel/Desktop/MIGUEL/Cursos/ContextualElectronicsRepository/CurrentSinkOrSwim/CurrentSinkOrSwim/CurrentSinkOrSwim.sch")
-    (date "09/09/2015 17:46:17")
+    (date "19/09/2015 13:29:21")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref P102)
