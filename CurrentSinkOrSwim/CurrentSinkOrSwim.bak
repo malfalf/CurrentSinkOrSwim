@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title ""
-Date "19 sep 2015"
+Date "24 sep 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -58,8 +58,6 @@ F 3 "" H 7600 2150 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	7250 2250 7150 2250
-Wire Wire Line
-	7150 2250 7150 6500
 Wire Wire Line
 	6150 2050 7250 2050
 Wire Wire Line
@@ -87,10 +85,10 @@ F 3 "" H 2650 1450 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR101
+L GND #PWR01
 U 1 1 55E48A4E
 P 3100 1700
-F 0 "#PWR101" H 3100 1700 30  0001 C CNN
+F 0 "#PWR01" H 3100 1700 30  0001 C CNN
 F 1 "GND" H 3100 1630 30  0001 C CNN
 F 2 "~" H 3100 1700 60  0000 C CNN
 F 3 "~" H 3100 1700 60  0000 C CNN
@@ -137,25 +135,12 @@ Wire Wire Line
 Connection ~ 6750 3800
 Wire Wire Line
 	7150 6350 6450 6350
-Connection ~ 7150 4050
 Wire Wire Line
 	4500 5800 4200 5800
 Wire Wire Line
 	4200 5800 4200 4400
 Wire Wire Line
 	4200 4400 4500 4400
-$Comp
-L GND #PWR102
-U 1 1 55E5F6E4
-P 7150 6500
-F 0 "#PWR102" H 7150 6500 30  0001 C CNN
-F 1 "GND" H 7150 6430 30  0001 C CNN
-F 2 "~" H 7150 6500 60  0000 C CNN
-F 3 "~" H 7150 6500 60  0000 C CNN
-	1    7150 6500
-	1    0    0    -1  
-$EndComp
-Connection ~ 7150 6350
 Wire Wire Line
 	3000 1350 5950 1350
 Wire Wire Line
@@ -167,4 +152,19 @@ Current Sink Input
 Text Notes 2450 1900 0    60   ~ 0
 Battery pack
 Connection ~ 6750 2050
+Wire Wire Line
+	7150 2250 7150 6500
+Connection ~ 7150 4050
+$Comp
+L GND #PWR02
+U 1 1 56004D71
+P 7150 6500
+F 0 "#PWR02" H 7150 6500 30  0001 C CNN
+F 1 "GND" H 7150 6430 30  0001 C CNN
+F 2 "~" H 7150 6500 60  0000 C CNN
+F 3 "~" H 7150 6500 60  0000 C CNN
+	1    7150 6500
+	1    0    0    -1  
+$EndComp
+Connection ~ 7150 6350
 $EndSCHEMATC

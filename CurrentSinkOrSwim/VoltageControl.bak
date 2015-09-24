@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title ""
-Date "19 sep 2015"
+Date "24 sep 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -70,10 +70,10 @@ F 3 "~" H 3900 3650 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR202
+L GND #PWR03
 U 1 1 55E5F04F
 P 5850 4250
-F 0 "#PWR202" H 5850 4250 30  0001 C CNN
+F 0 "#PWR03" H 5850 4250 30  0001 C CNN
 F 1 "GND" H 5850 4180 30  0001 C CNN
 F 2 "~" H 5850 4250 60  0000 C CNN
 F 3 "~" H 5850 4250 60  0000 C CNN
@@ -91,28 +91,6 @@ F 3 "~" H 3600 4350 60  0000 C CNN
 	1    3600 4350
 	0    1    1    0   
 $EndComp
-$Comp
-L C C201
-U 1 1 55E5F05B
-P 5350 3200
-F 0 "C201" H 5350 3300 40  0000 L CNN
-F 1 "C" H 5356 3115 40  0000 L CNN
-F 2 "~" H 5388 3050 30  0000 C CNN
-F 3 "~" H 5350 3200 60  0000 C CNN
-	1    5350 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR201
-U 1 1 55E5F061
-P 5350 3450
-F 0 "#PWR201" H 5350 3450 30  0001 C CNN
-F 1 "GND" H 5350 3380 30  0001 C CNN
-F 2 "~" H 5350 3450 60  0000 C CNN
-F 3 "~" H 5350 3450 60  0000 C CNN
-	1    5350 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 4100 5850 4250
 Wire Wire Line
@@ -129,11 +107,6 @@ Wire Wire Line
 	5850 2950 5850 3300
 Wire Wire Line
 	3900 2950 5850 2950
-Wire Wire Line
-	5350 3000 5350 2950
-Connection ~ 5350 2950
-Wire Wire Line
-	5350 3400 5350 3450
 Wire Wire Line
 	5200 4450 8600 4450
 Text GLabel 3250 1900 0    60   Input ~ 0
