@@ -1,13 +1,11 @@
-update=07/09/2015 18:12:36
+update=26/09/2015 18:21:01
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -86,3 +84,5 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=SinkOrSwimFootprints
+[general]
+version=1
