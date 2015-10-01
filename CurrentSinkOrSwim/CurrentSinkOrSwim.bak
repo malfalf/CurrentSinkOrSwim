@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title ""
-Date "24 sep 2015"
+Date "1 oct 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -53,6 +53,7 @@ F 0 "P102" V 7550 2150 40  0000 C CNN
 F 1 "CONN_2" V 7650 2150 40  0000 C CNN
 F 2 "" H 7600 2150 60  0000 C CNN
 F 3 "" H 7600 2150 60  0000 C CNN
+F 4 "MA522-500M02" H 7600 2150 60  0001 C CNN "MFG Name"
 	1    7600 2150
 	1    0    0    -1  
 $EndComp
@@ -81,6 +82,7 @@ F 0 "P101" V 2600 1450 40  0000 C CNN
 F 1 "CONN_2" V 2700 1450 40  0000 C CNN
 F 2 "" H 2650 1450 60  0000 C CNN
 F 3 "" H 2650 1450 60  0000 C CNN
+F 4 "MA522-500M02" H 2650 1450 60  0001 C CNN "MFG Name"
 	1    2650 1450
 	-1   0    0    -1  
 $EndComp

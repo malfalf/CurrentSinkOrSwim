@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title ""
-Date "24 sep 2015"
+Date "1 oct 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -53,7 +53,7 @@ F 0 "U201" H 5900 3900 60  0000 L CNN
 F 1 "LMV358" H 5900 3450 60  0000 L CNN
 F 2 "" H 5950 3700 60  0000 C CNN
 F 3 "" H 5950 3700 60  0000 C CNN
-F 4 " LMV358ID" H 5950 3700 60  0001 C CNN "MFG Part Number"
+F 4 " LMV358ID" H 5950 3700 60  0001 C CNN "MFG Name"
 F 5 "http://www.farnell.com/datasheets/1862405.pdf" H 5950 3700 60  0001 C CNN "Distributor Part Number 1"
 	1    5950 3700
 	1    0    0    -1  
@@ -88,6 +88,7 @@ F 0 "RV201" H 3600 4250 50  0000 C CNN
 F 1 "POT" H 3600 4350 50  0000 C CNN
 F 2 "~" H 3600 4350 60  0000 C CNN
 F 3 "~" H 3600 4350 60  0000 C CNN
+F 4 "ALPS 29 0001  POTENCIOMETRO" H 3600 4350 60  0001 C CNN "MFG Name"
 	1    3600 4350
 	0    1    1    0   
 $EndComp
@@ -123,7 +124,7 @@ F 0 "D201" H 7000 3800 40  0000 C CNN
 F 1 "DIODE" H 7000 3600 40  0000 C CNN
 F 2 "~" H 7000 3700 60  0000 C CNN
 F 3 "http://www.farnell.com/datasheets/1915502.pdf" H 7000 3700 60  0001 C CNN
-F 4 "1N4148WT-7" H 7000 3700 60  0001 C CNN "MFG Part Number"
+F 4 "1N4148WT-7" H 7000 3700 60  0001 C CNN "MFG Name"
 	1    7000 3700
 	-1   0    0    1   
 $EndComp
